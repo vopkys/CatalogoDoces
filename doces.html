@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo H&H Doces</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8e8;
+            margin: 0;
+            padding: 0;
+            color: #6b3e2e;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: -5px;
+        }
+        .produto {
+            background-color: #ffd6d6;
+            border-radius: 15px;
+            padding: 15px;
+            margin: 15px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 600px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .produto img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+        .produto-info {
+            flex: 1;
+            margin-left: 15px;
+        }
+        .produto-info h2 {
+            margin: 0;
+            font-size: 1.4em;
+            font-family: 'Georgia', serif;
+        }
+        .produto-info p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .preco {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #b45f3a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo</h1>
+        <p>H&H DOCES</p>
+        <p>🍰</p>
+    </header>
+
+    <div class="produto">
+        <img src="morango.jpg" alt="Morango do Amor">
+        <div class="produto-info">
+            <h2>Morango do Amor</h2>
+            <p>Morango envolvido em brigadeiro branco e caramelo caseiro. (10g)</p>
+        </div>
+        <div class="preco">R$15</div>
+    </div>
+
+    <div class="produto">
+        <img src="pudim.jpg" alt="Pudim de leite condensado">
+        <div class="produto-info">
+            <h2>Pudim de leite condensado</h2>
+            <p>Pudim feito com leite condensado e calda de caramelo. (..G)</p>
+        </div>
+        <div class="preco">R$..</div>
+    </div>
+
+    <div class="produto">
+        <img src="torta-limao.jpg" alt="Torta de limão">
+        <div class="produto-info">
+            <h2>Torta de limão</h2>
+            <p>Torta de limão com chantilly e raspinhas de limão. (..G)</p>
+        </div>
+        <div class="preco">R$..</div>
+    </div>
+
+    <div class="produto">
+        <img src="torta-maracuja.jpg" alt="Torta de maracujá">
+        <div class="produto-info">
+            <h2>Torta de maracujá</h2>
+            <p>Torta de maracujá com cobertura de maracujá. (..G)</p>
+        </div>
+        <div class="preco">R$..</div>
+    </div>
+</body>
+</html>
